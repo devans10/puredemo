@@ -15,6 +15,6 @@ module "compute" {
 # and Data Volume name and serial
 module "storage" {
     source = "./storage"
-    host = "${module.compute.hostname}"
+    hostname = "${module.compute.hostname}"
     wwn = "${module.compute.wwn}"
 }
