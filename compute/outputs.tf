@@ -1,7 +1,7 @@
 ###### compute/outputs.tf
 
 output "wwn" {
-    value = "0000999900009999"
+    value = "0000999900009876"
 }
 
 output "hostname" {
