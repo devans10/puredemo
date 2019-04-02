@@ -8,14 +8,14 @@ The demo uses variables for the flasharray and api_token to connect to the array
 ### Instructions
 ```
 $ mkdir -p ~/.terraform.d/plugins
-$ wget https://github.com/devans10/terraform-provider-purestorage/releases/download/v0.4.0/terraform-provider-purestorage.linux.tar.gz 
+$ wget https://github.com/devans10/terraform-provider-purestorage/releases/download/v0.4.1/terraform-provider-purestorage.linux.tar.gz 
 $ tar -xzf terraform-provider-purestorage.linux.tar.gz
 $ mv linux/terraform-provider-purestorage ~/.terraform.d/plugins/
 $ git clone https://github.com/devans10/puredemo.git
 $ cd puredemo
 ```
 
-Edit `terraform.tfvars` to add your array and api_token
+Edit `terraform.tfvars` to add your array FQDN (or IP address) and api_token
 
 ```
 $ terraform init
