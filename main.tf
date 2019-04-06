@@ -1,6 +1,6 @@
 ###### main.ft
 
-# Purestore Flasharray Provider
+# Pure Storage FlashArray Provider
 provider "purestorage" {
     target = "${var.purestorage_flasharray}"
     api_token = "${var.purestorage_apitoken}"

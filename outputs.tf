@@ -4,7 +4,7 @@ output "Boot Volume" {
   value = "${module.storage.bootvol}"
 }
 
-output "Bool Volume Serial" {
+output "Boot Volume Serial" {
     value = "${module.storage.bootvolserial}"
 }
 
