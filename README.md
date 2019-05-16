@@ -11,6 +11,17 @@ $ mkdir -p ~/.terraform.d/plugins
 $ wget https://github.com/devans10/terraform-provider-flash/releases/download/v1.0.0/terraform-provider-flash.linux.tar.gz 
 $ tar -xzf terraform-provider-flash.linux.tar.gz
 $ mv linux/terraform-provider-flash ~/.terraform.d/plugins/
+```
+
+Edit $HOME/.terraformrc
+```
+providers {
+    purestorage = "$GOPATH/bin/terraform-provider-flash"
+}
+```
+
+Clone the Demo Repository
+```
 $ git clone https://github.com/devans10/puredemo.git
 $ cd puredemo
 ```
